@@ -1,5 +1,6 @@
 ## Why Does Claude Code Work So Well on Non‑Coding Tasks?  
 ### A Look at the Generalization of Agent Scaffolding
+*Cover：Claude Code Official Homepage*
 
 If you’re a developer, you’ve probably heard of Claude Code, OpenCode, or earlier systems like SWE‑Agent. These tools were originally created to solve software engineering problems — fixing bugs, writing code, running tests.  
 
@@ -16,7 +17,11 @@ This article is about that.
 Before we talk about agent scaffolding, we need to disentangle a few concepts that non‑specialists often mix up.
 
 **LLM (Large Language Model)**  
-You can think of an LLM as the “engine” or “brain” at the very bottom. Examples: GPT‑4, Claude 3.5, DeepSeek‑V3. You feed it a sequence of tokens (usually text), and it outputs another sequence of tokens — that’s it.  
+You can think of an LLM as the “engine” or “brain” at the very bottom. Examples: GPT‑5, Claude 4.5 Sonnet, DeepSeek‑V3. You feed it a sequence of tokens (usually text), and it outputs another sequence of tokens (classical LLM outputs one token at a time) — that’s it.  
+
+[![LM Arena ](/images/lmarena.png)](https://arena.ai/leaderboard)
+*A famous leaderboard for LLMs
+From：[LM Arena](https://arena.ai/leaderboard)*
 
 An LLM:
 - does not click buttons,
@@ -38,6 +43,10 @@ Roughly speaking, an agent:
 
 Claude Code is a classic example of an LLM agent: internally it has multiple sub‑agents (read code, edit code, run tests, etc.), all powered by one or more LLMs, but to the user it looks like “an assistant that can actually work on the codebase.”
 
+[![terminal-bench ](/images/terminal-bench.jpeg)](https://www.tbench.ai/leaderboard/terminal-bench/2.0)
+*Another famous leaderboard, but this time it focuses on LLM agents, focusing on terminal commands.
+From：[terminal-bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)*
+
 **LLM Application**  
 An LLM application sits one layer above agents — it’s the **product** you actually use. It isn’t just an agent; it’s a full system that includes:
 - front‑end interfaces (web UI, desktop app, IDE plugin, mobile app),  
@@ -53,7 +62,7 @@ In other words:
 - **“LLM agent”** is the machine built around that chip,  
 - **“LLM application”** is taking that machine, packaging it into a product, and putting it in users’ hands.
 
-**Company vs. Model Provider vs. Product**  
+**Company , Model Provider and Product**  
 Another common confusion is between company names, model names, and product names:
 
 - Anthropic is a company.  
@@ -102,6 +111,9 @@ Example:
 
 This looks minor but is actually a big deal. CoT pushes the model to “think step‑by‑step,” significantly improving performance on math and logic tasks[1].
 
+[![Large Language Models are Zero-Shot Reasoners ](/images/cot.png)](https://arxiv.org/abs/2205.11916)
+*From：[Kojima et al., Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)*
+
 But CoT still only addresses **thinking**, not **doing**. The model can reason in its “head,” but it still can’t:
 - verify its answers by running code,  
 - fetch fresh information from the internet, or  
@@ -118,6 +130,9 @@ ReAct’s core loop is “Thought → Action → Observation”:
 4. Repeat until the task is done.
 
 As one researcher put it: “CoT gave models the ability to *reason*, tool calling gave them the ability to *act*, but we lacked a mechanism to combine the two. ReAct fills in that missing piece.”[3]
+
+[![ReAct ](/images/react.png)](https://arxiv.org/abs/2210.03629)
+*From：[Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)*
 
 Interestingly, ReAct also helps reduce hallucination. On HotpotQA, CoT alone produced incorrect statements in over half of the cases, while ReAct brought that close to zero[3].
 
@@ -237,6 +252,9 @@ Practically, this means agents can now:
 - emailing it to a mailing list.
 
 With MCP and Skills combined, the scaffold essentially gains an **extensible toolbox**. It’s no longer constrained to code tasks; it can reach into almost any system you expose.
+
+[![Skillsmp ](/images/skillsmp.png)](https://skillsmp.com/)
+*From：[Skillsmp官方网站](https://skillsmp.com/)*
 
 ### 3. Most Problems Can Be Reframed as Code Problems
 

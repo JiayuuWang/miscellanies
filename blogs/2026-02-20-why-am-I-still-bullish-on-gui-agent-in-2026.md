@@ -3,8 +3,8 @@
 
 If you’ve been following AI over the past year, you’ve probably noticed a clear trend: 2025 was a breakout year for GUI agents. From academic benchmarks being rapidly pushed forward to big tech companies launching their own products, “AI that can operate a computer” has become one of the hottest topics.
 
-[![Claude | Computer use for automating operations ](/images/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
-*From：[Claude | Computer use for automating operations](https://www.youtube.com/watch?v=ODaHJzOyVCQ)*
+[![Claude \| Computer use for automating operations ](/images/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
+*From：[Claude \| Computer use for automating operations](https://www.youtube.com/watch?v=ODaHJzOyVCQ)*
 
 At the same time, by early 2026, a different sentiment has started to emerge in academia: **“GUI agents are no longer a good direction to work on.”** Typical arguments include: the field is too competitive, has been around for a while, and it’s getting increasingly hard to publish papers. On the industry side, although major companies have all shipped GUI-related products, they still haven’t generated the same buzz as some other AI directions; in China, ByteDance’s “Doubao Phone” went viral for a while, then quickly cooled down.
 
