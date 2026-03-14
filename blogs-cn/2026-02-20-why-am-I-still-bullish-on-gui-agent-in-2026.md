@@ -3,8 +3,8 @@
 
 如果你关注 AI 领域在过去一年的发展，会发现一个有趣的现象：GUI-Agent 在 2025 年迎来了一波井喷式爆发。从学术界的 Benchmark 刷榜，到工业界的巨头布局，"能操作电脑的 AI"成了当下最热门的话题之一。
 
-[![Claude | Computer use for automating operations ](/images/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
-*图片来源：[Claude | Computer use for automating operations](https://www.youtube.com/watch?v=ODaHJzOyVCQ)*
+[![Claude \| Computer use for automating operations ](/images/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
+*图片来源：[Claude \| Computer use for automating operations](https://www.youtube.com/watch?v=ODaHJzOyVCQ)*
 
 但有意思的是，进入 2026 年以来，学术界开始出现一种声音：**"GUI-Agent 已经不适合继续做了"**。理由无外乎：赛道太卷、已经发展了比较长的时间、paper 越来越难中。而工业界方面，大厂亲自下台，确实都推出了自己的 GUI 产品，但引起的反响尚不如其他方向的AI产品；中国的"豆包手机"虽然一度引爆流量，却也很快归于平静。
 
