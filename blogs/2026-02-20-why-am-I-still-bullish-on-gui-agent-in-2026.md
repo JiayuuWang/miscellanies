@@ -3,7 +3,7 @@
 
 If you’ve been following AI over the past year, you’ve probably noticed a clear trend: 2025 was a breakout year for GUI agents. From academic benchmarks being rapidly pushed forward to big tech companies launching their own products, “AI that can operate a computer” has become one of the hottest topics.
 
-[![Claude | Computer use for automating operations ](../asset/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
+[![Claude | Computer use for automating operations ](../images/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
 *From：[Claude | Computer use for automating operations](https://www.youtube.com/watch?v=ODaHJzOyVCQ)*
 
 At the same time, by early 2026, a different sentiment has started to emerge in academia: **“GUI agents are no longer a good direction to work on.”** Typical arguments include: the field is too competitive, has been around for a while, and it’s getting increasingly hard to publish papers. On the industry side, although major companies have all shipped GUI-related products, they still haven’t generated the same buzz as some other AI directions; in China, ByteDance’s “Doubao Phone” went viral for a while, then quickly cooled down.
@@ -18,7 +18,7 @@ This article is my attempt to explain why.
 
 CLI (Command Line Interface) and GUI (Graphical User Interface) represent two milestones in the evolution of human–computer interaction. CLI relies on typing precise text commands; it has a higher learning curve but is efficient and lightweight, and has long been the domain of professionals and early computer users. GUI, by contrast, uses windows, icons, and mouse clicks to make interaction intuitive, dramatically lowering the barrier to entry and enabling computers to reach the mass market. In short, **CLI is a “spell-casting” power tool, while GUI is the “remote control” of everyday computing** — and both still matter today.
 
-[![Centralized Bash history with timestamps ](../asset/cli.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
+[![Centralized Bash history with timestamps ](../images/cli.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
 *From：[Centralized Bash history with timestamps](https://www.unixtutorial.org/centralized-bash-history-with-timestamps/)*
 
 A GUI agent is an intelligent system that can understand and operate graphical interfaces like a human. It perceives the screen (icons, buttons, layout) and interacts through virtual mouse and keyboard actions, essentially “watching” the screen and “using its hands” to complete tasks.
@@ -53,7 +53,7 @@ On the industry side, 2025 was equally intense:
 
 - **OpenAI Operator**: Launched in January 2025, Operator can autonomously execute complex tasks in a browser. On challenging JavaScript-heavy sites, it reaches around 87% task success, about 58% on WebArena, and about 38% on OSWorld[1].
 
-[![Introducing Operator ](../asset/openai-operator.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
+[![Introducing Operator ](../images/openai-operator.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
 *From：[Introducing Operator](https://openai.com/zh-Hans-CN/index/introducing-operator/)*
 
 - **Anthropic Claude Computer Use**: Released in October 2024, this was the first production‑grade model offering autonomous desktop control. It operates via a loop of screenshot capture, visual analysis, action planning, and virtual mouse/keyboard execution[6].
@@ -126,7 +126,7 @@ On ScreenSpot‑Pro, a particularly challenging grounding benchmark, early gener
 
 Given that ScreenSpot‑Pro focuses on professional high‑resolution software — 23 applications across 5 industries and 3 operating systems — these gains are remarkable. Even humans can find many of these UIs tricky.
 
-[![Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use", 2025 ](../asset/srceenshot-pro-task.png)](https://arxiv.org/html/2504.07981v1#bib)
+[![Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use", 2025 ](../images/srceenshot-pro-task.png)](https://arxiv.org/html/2504.07981v1#bib)
 *This is a task example from this benchmark. Even real human can not find the answer easily！
 From：[Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use", 2025](https://arxiv.org/html/2504.07981v1#bib)*
 
@@ -182,7 +182,7 @@ Personally, I see these more as **opportunities** than blockers. Every unsolved 
 
 At the end of 2025, I started a small demo project: [Auto‑Cursor](https://github.com/JiayuuWang/Auto-Cursor).
 
-[![Auto-Cursor ](../asset/auto-cursor.png)](https://github.com/JiayuuWang/Auto-Cursor)
+[![Auto-Cursor ](../images/auto-cursor.png)](https://github.com/JiayuuWang/Auto-Cursor)
 *From：[Auto-Cursor: A GUI Agent for Cursor IDE](https://github.com/JiayuuWang/Auto-Cursor)*
 
 The motivation is straightforward: extend the usage scenarios of GUI methods by letting an agent operate the Cursor IDE itself via GUI.
