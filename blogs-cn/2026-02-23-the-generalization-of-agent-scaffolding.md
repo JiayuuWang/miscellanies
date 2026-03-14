@@ -1,4 +1,5 @@
 # 为什么 Claude Code 在大量非代码任务上也能表现出色？—— 聊聊 Agent 脚手架的泛化性
+*封面来源：Claude Code Official Homepage*
 
 如果你是一名开发者，你大概率听说过 Claude Code、OpenCode，或者更早的 SWE-Agent。这些工具最初是为了解决代码生成问题而生的——帮我们修 Bug、写代码、跑测试。但你有没有想过一个问题：**为什么它们不仅能写代码，还能在很多看似与代码无关的任务上表现出色？**
 
@@ -7,6 +8,9 @@
 这里面的功劳，固然要归功于底层模型的强大能力。但除此之外，还有一个经常被忽视的重要因素：**Agent 脚手架（Agent Scaffolding）**。
 
 今天这篇文章，就来好好聊聊这个话题。
+
+[![Claude | Computer use for automating operations ](/images/claude-cua-demo.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
+*图片来源：[Claude | Computer use for automating operations](https://www.youtube.com/watch?v=ODaHJzOyVCQ)*
 
 ## 首先，澄清几个容易混淆的概念
 
