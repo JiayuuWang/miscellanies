@@ -1,4 +1,4 @@
-# 2026年，我为什么继续看好 GUI-Agent？
+# 2026年，我为什么继续看好 GUI-Agent
 *封面来源：Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use", 2025*
 
 如果你关注 AI 领域在过去一年的发展，会发现一个有趣的现象：GUI-Agent 在 2025 年迎来了一波井喷式爆发。从学术界的 Benchmark 刷榜，到工业界的巨头布局，"能操作电脑的 AI"成了当下最热门的话题之一。

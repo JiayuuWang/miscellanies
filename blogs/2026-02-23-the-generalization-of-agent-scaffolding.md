@@ -254,7 +254,7 @@ Practically, this means agents can now:
 With MCP and Skills combined, the scaffold essentially gains an **extensible toolbox**. It’s no longer constrained to code tasks; it can reach into almost any system you expose.
 
 [![Skillsmp ](/images/skillsmp.png)](https://skillsmp.com/)
-*From：[Skillsmp官方网站](https://skillsmp.com/)*
+*From：[Skillsmp official site](https://skillsmp.com/)*
 
 ### 3. Most Problems Can Be Reframed as Code Problems
 
