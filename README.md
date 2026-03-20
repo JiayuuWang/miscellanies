@@ -1,2 +1,2 @@
-# my-blog
+# miscellanies
 This repo stores my blogs.
