@@ -1,5 +1,4 @@
 # Is It Possible That Future Software Is Just Pure Text?
-
 *Cover image source: CLI-Anything*
 
 A project called **CLI-Anything** has been making waves in both developer circles and the research community recently. It comes from Professor Chao Huang's group at the Hong Kong University of Science and Technology (HKUDS), and has been accumulating attention on GitHub rapidly — at the time of writing, it already has **29k** stars.
